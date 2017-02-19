@@ -4,3 +4,18 @@
 *.pyc
 /media
 /Vagrantfile.local
+
+# virtualenv
+/bin
+/include
+/lib
+/lib64
+/build
+/local
+/share
+
+# pip
+pip-selfcheck.json
+
+# project db
+*.sqlite3
