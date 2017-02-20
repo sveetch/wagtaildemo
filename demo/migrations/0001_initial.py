@@ -19,7 +19,7 @@ class Migration(migrations.Migration):
     dependencies = [
         ('wagtaildocs', '0007_merge'),
         ('wagtailimages', '0017_reduce_focal_point_key_max_length'),
-        ('wagtailcore', '0033_auto_20170220_1651'),
+        ('wagtailcore', '0032_add_bulk_delete_page_permission'),
     ]
 
     operations = [
