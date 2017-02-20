@@ -127,6 +127,7 @@ INSTALLED_APPS = (
     'taggit',
     'modelcluster',
     'rest_framework',
+    'puput',
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
@@ -143,6 +144,8 @@ INSTALLED_APPS = (
     'wagtail.wagtailforms',
     'wagtail.wagtailsites',
     'wagtail.contrib.wagtailapi',
+    'wagtail.contrib.wagtailsitemaps',
+    'wagtail.contrib.wagtailroutablepage',
 
     'demo',
 )
@@ -216,3 +219,6 @@ LOGGING = {
 # WAGTAIL SETTINGS
 
 WAGTAIL_SITE_NAME = 'wagtaildemo'
+
+# Use Puput inside Wagtail if True
+PUPUT_AS_PLUGIN = True
