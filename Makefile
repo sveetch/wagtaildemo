@@ -19,5 +19,5 @@ install:
 	virtualenv .
 	bin/pip install -r requirements.txt
 	bin/python manage.py migrate
-	bin/python manage.py load_initial_data
+# 	bin/python manage.py load_initial_data
 	bin/python manage.py createsuperuser
